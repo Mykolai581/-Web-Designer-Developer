@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "lib": ["DOM", "ES2015"],
+
+    "target": "ES2020",
+    "rootDir": "src",
+    "types": [],
+
+    "declaration": true,
+    "declarationMap": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

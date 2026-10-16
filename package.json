@@ -1,0 +1,20 @@
+{
+  "name": "web-designer-and-developer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-assets": "copyfiles -u 1 src/**/*.css dist/",
+    "build": "tsc && npm run copy-assets && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "vite": "^8.3.1"
+  }
+}
